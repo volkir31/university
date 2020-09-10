@@ -1,0 +1,2 @@
+first_coord, second_coord, third_coord, fourth_coord = int(input()), int(input()), int(input()), int(input())
+print('YES' if (first_coord + second_coord) % 2 == (third_coord + fourth_coord) % 2 else 'NO')

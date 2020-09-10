@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b2d1dfa-4602-4b93-b2d3-a416f085abfb" name="Default Changelist" comment="" />
+    <list default="true" id="6b2d1dfa-4602-4b93-b2d3-a416f085abfb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1st_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/1st_task.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +32,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.9th_task">
-    <configuration name="4th_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.18n_task">
+    <configuration name="15n_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="универ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -42,7 +45,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4th_task.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15n_task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -51,7 +54,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5th_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="16n_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="универ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,7 +66,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5th_task.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16n_task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,7 +75,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="6th_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="17n_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="универ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,7 +87,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6th_task.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17n_task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7th_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="18n_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="универ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,7 +108,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7th_task.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/18n_task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -114,7 +117,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9th_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="1st_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="универ" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,7 +129,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9th_task.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1st_task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.9th_task" />
-        <item itemvalue="Python.7th_task" />
-        <item itemvalue="Python.6th_task" />
-        <item itemvalue="Python.5th_task" />
-        <item itemvalue="Python.4th_task" />
+        <item itemvalue="Python.18n_task" />
+        <item itemvalue="Python.17n_task" />
+        <item itemvalue="Python.16n_task" />
+        <item itemvalue="Python.1st_task" />
+        <item itemvalue="Python.15n_task" />
       </list>
     </recent_temporary>
   </component>
@@ -167,45 +170,45 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="612" y="62" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1599758551776" />
-    <state width="1899" height="330" key="GridCell.Tab.0.bottom" timestamp="1599759871547">
+    <state width="1899" height="264" key="GridCell.Tab.0.bottom" timestamp="1599779924785">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
-    <state width="1899" height="330" key="GridCell.Tab.0.center" timestamp="1599759871547">
+    <state width="1899" height="264" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1599779924785" />
+    <state width="1899" height="264" key="GridCell.Tab.0.center" timestamp="1599779924784">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
-    <state width="1899" height="330" key="GridCell.Tab.0.left" timestamp="1599759871546">
+    <state width="1899" height="264" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1599779924784" />
+    <state width="1899" height="264" key="GridCell.Tab.0.left" timestamp="1599779924784">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871546" />
-    <state width="1899" height="330" key="GridCell.Tab.0.right" timestamp="1599759871547">
+    <state width="1899" height="264" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1599779924784" />
+    <state width="1899" height="264" key="GridCell.Tab.0.right" timestamp="1599779924784">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
-    <state width="1899" height="330" key="GridCell.Tab.1.bottom" timestamp="1599759871547">
+    <state width="1899" height="264" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1599779924784" />
+    <state width="1899" height="330" key="GridCell.Tab.1.bottom" timestamp="1599779106657">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
-    <state width="1899" height="330" key="GridCell.Tab.1.center" timestamp="1599759871547">
+    <state width="1899" height="330" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1599779106657" />
+    <state width="1899" height="330" key="GridCell.Tab.1.center" timestamp="1599779106657">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
-    <state width="1899" height="330" key="GridCell.Tab.1.left" timestamp="1599759871547">
+    <state width="1899" height="330" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1599779106657" />
+    <state width="1899" height="330" key="GridCell.Tab.1.left" timestamp="1599779106657">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
-    <state width="1899" height="330" key="GridCell.Tab.1.right" timestamp="1599759871547">
+    <state width="1899" height="330" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1599779106657" />
+    <state width="1899" height="330" key="GridCell.Tab.1.right" timestamp="1599779106657">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
+    <state width="1899" height="330" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1599779106657" />
     <state x="461" y="197" key="SettingsEditor" timestamp="1599758513190">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="461" y="197" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1599758513190" />
-    <state x="552" y="283" key="Vcs.Push.Dialog.v2" timestamp="1599758599297">
+    <state x="552" y="283" key="Vcs.Push.Dialog.v2" timestamp="1599760120376">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="552" y="283" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1599758599297" />
+    <state x="552" y="283" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1599760120376" />
   </component>
 </project>
