@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hKFBEA3ghh88Hs9Rj75IfWTgwp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,29 +26,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.7th_task">
-    <configuration name="3rd_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="универ" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3rd_task.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.9th_task">
     <configuration name="4th_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="универ" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,13 +114,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="9th_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="универ" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9th_task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.9th_task" />
         <item itemvalue="Python.7th_task" />
         <item itemvalue="Python.6th_task" />
         <item itemvalue="Python.5th_task" />
         <item itemvalue="Python.4th_task" />
-        <item itemvalue="Python.3rd_task" />
       </list>
     </recent_temporary>
   </component>
@@ -152,38 +158,54 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done 1-9 tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="done 1-9 tasks" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="264" key="GridCell.Tab.0.bottom" timestamp="1599756393598">
+    <state x="612" y="62" key="CommitChangelistDialog2" timestamp="1599758551776">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="264" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1599756393598" />
-    <state width="1899" height="264" key="GridCell.Tab.0.center" timestamp="1599756393598">
+    <state x="612" y="62" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1599758551776" />
+    <state width="1899" height="330" key="GridCell.Tab.0.bottom" timestamp="1599759871547">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="264" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1599756393598" />
-    <state width="1899" height="264" key="GridCell.Tab.0.left" timestamp="1599756393598">
+    <state width="1899" height="330" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
+    <state width="1899" height="330" key="GridCell.Tab.0.center" timestamp="1599759871547">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="264" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1599756393598" />
-    <state width="1899" height="264" key="GridCell.Tab.0.right" timestamp="1599756393598">
+    <state width="1899" height="330" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
+    <state width="1899" height="330" key="GridCell.Tab.0.left" timestamp="1599759871546">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="264" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1599756393598" />
-    <state width="1899" height="330" key="GridCell.Tab.1.bottom" timestamp="1599753453824">
+    <state width="1899" height="330" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871546" />
+    <state width="1899" height="330" key="GridCell.Tab.0.right" timestamp="1599759871547">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1599753453824" />
-    <state width="1899" height="330" key="GridCell.Tab.1.center" timestamp="1599753453824">
+    <state width="1899" height="330" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
+    <state width="1899" height="330" key="GridCell.Tab.1.bottom" timestamp="1599759871547">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1599753453824" />
-    <state width="1899" height="330" key="GridCell.Tab.1.left" timestamp="1599753453824">
+    <state width="1899" height="330" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
+    <state width="1899" height="330" key="GridCell.Tab.1.center" timestamp="1599759871547">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1599753453824" />
-    <state width="1899" height="330" key="GridCell.Tab.1.right" timestamp="1599753453824">
+    <state width="1899" height="330" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
+    <state width="1899" height="330" key="GridCell.Tab.1.left" timestamp="1599759871547">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1899" height="330" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1599753453824" />
+    <state width="1899" height="330" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
+    <state width="1899" height="330" key="GridCell.Tab.1.right" timestamp="1599759871547">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="330" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1599759871547" />
+    <state x="461" y="197" key="SettingsEditor" timestamp="1599758513190">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="461" y="197" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1599758513190" />
+    <state x="552" y="283" key="Vcs.Push.Dialog.v2" timestamp="1599758599297">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="552" y="283" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1599758599297" />
   </component>
 </project>
