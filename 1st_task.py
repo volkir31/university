@@ -1,2 +1,1 @@
-digits = [int(input()), int(input()), int(input())]
-print(sum(digits))
+print(sum([int(input()) for i in range(3)]))

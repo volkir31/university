@@ -1,2 +1,1 @@
-digit = input()
-print(digit[-1])
+print(input()[-1])
