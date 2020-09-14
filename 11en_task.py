@@ -1,7 +1,2 @@
 digit = int(input())
-if digit > 0:
-    print(1)
-elif digit < 0:
-    print(-1)
-else:
-    print(0)
+print(1 if digit > 0 else -1 if digit < 0 else 0)
