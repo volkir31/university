@@ -1,2 +1,2 @@
-coords = [int(input()) for i in range(4)]
-print('YES' if (coords[0] + coords[1]) % 2 == (coords[2] + coords[3]) % 2 else 'NO')
+first_coord, second_coord, third_coord, fourth_coord = int(input()), int(input()), int(input()), int(input())
+print('YES' if (first_coord + second_coord) % 2 == (third_coord + fourth_coord) % 2 else 'NO')

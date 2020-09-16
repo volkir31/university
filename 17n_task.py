@@ -1,13 +1,12 @@
 max_digit = int(input())
-index_of_the_max_digit = 1
+prev_max_digit = 0
 while True:
     digit = int(input())
     if digit > max_digit:
-        if index_of_the_max_digit >= 2:
-            continue
-        else:
-            max_digit = digit
-            index_of_the_max_digit = 2
+        prev_max_digit = max_digit
+        max_digit = digit
+    if prev_max_digit < digit < max_digit:
+        prev_max_digit = digit
     if digit == 0:
         break
-print(max_digit)
+print(prev_max_digit)
