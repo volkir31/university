@@ -14,7 +14,7 @@ for i in range(count_str1):
 for i in range(count_str1):
     str1 = ''
     for j in range(count_column2):
-        str1 += f'{list3[i][j]} '
+        str1 += str(list3[i][j]) + ' '
     print(str1)
     
 # from random import randint

@@ -1,9 +1,9 @@
 list_size = int(input())
 for i in range(list_size):
-    str = f'{i } '
+    str1 = str(i)+' '
     for j in range(1, list_size):
         if i == j:
-            str += '0 '
+            str1 += '0 '
         else:
-            str += f'{abs(i - j)} '
-    print(str.strip())
+            str1 += str(abs(i - j)) + ' '
+    print(str1.strip())

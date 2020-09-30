@@ -6,12 +6,12 @@ for i in range(count_str):
 input_str = input().split()
 replaceable_string, replacement_string = int(input_str[0]), int(input_str[1])
 for i in range(count_str):
-    str = ''
+    str1 = ''
     for j in range(count_column):
         if j == replaceable_string:
-            str += f'{list1[i][replacement_string]} '
+            str1 += str(list1[i][replacement_string]) + ' '
         elif j == replacement_string:
-            str += f'{list1[i][replaceable_string]} '
+            str1 += str(list1[i][replaceable_string]) + ' '
         else:
-            str += f'{list1[i][j]} '
-    print(str)
+            str1 += str(list1[i][j]) + ' '
+    print(str1)
