@@ -4,10 +4,11 @@ if input_string.count('f') == 1:
 elif input_string.count('f') == 0:
     print(-2)
 else:
-    count = 1
-    for i in range(len(input_string)):
-        if count == 2:
-            print(i)
-            break
-        if input_string[i] == 'f':
-            count += 1
+    print(input_string.index('f', input_string.index('f') + 1))
+    # count = 1
+    # for i in range(len(input_string)):
+    #     if count == 2:
+    #         print(i)
+    #         break
+    #     if input_string[i] == 'f':
+    #         count += 1
