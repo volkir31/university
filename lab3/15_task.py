@@ -1,4 +1,4 @@
 import re
 input_string = input()
 prototype = r'[ABEKMHOPCTYX]\d\d\d[ABEKMHOPCTYX]{2}\d{2,3}'
-print('yes' if len(re.findall(prototype, input_string)) == 1 else 'no')
+print('yes' if len(re.findall(prototype, input_string)) == 1 and len(input_string) <= 9 else 'no')
