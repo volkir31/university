@@ -15,8 +15,8 @@ while True:
 output_list = []
 for str in input_list:
     new_str, decode_str, decoded_str = '', '', ''
-    if str[-1] == ' ':
-        for symb in str:
+    if str[0].isalpha() == False:
+        for symb in str + ' ':
             if symb != ' ':
                 decode_str += symb.lower()
             else:
@@ -25,13 +25,14 @@ for str in input_list:
                         decoded_str += key
                         decode_str = ''
                         break
-        output_list.append(decoded_str.lower())
+        output_list.append(decoded_str.lower().strip())
     else:
-        for symb in str:
-            for key, value in morse_dict.items():
-                if symb == key:
-                    new_str += value + ' '
-                elif symb in '.,?!:;' and str[str.index(symb) - 1].isdigit() and str[str.index(symb) - 1] != 'p':
-                    continue
-        output_list.append(new_str)
+        if str[0].isalpha():
+            for symb in str:
+                for key, value in morse_dict.items():
+                    if symb == key:
+                        new_str += value + ' '
+                    elif symb in '.,?!:;' and str[str.index(symb) - 1].isdigit() and str[str.index(symb) - 1] != 'p':
+                        continue
+            output_list.append(new_str)
 print('\n'.join(output_list))
