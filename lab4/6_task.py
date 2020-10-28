@@ -12,4 +12,5 @@ for city in cities_list:
     for country, city1 in country_dict.items():
         if city in city1:
             output_list.append(country)
-print(output_list)
+for item in output_list:
+    print(item)

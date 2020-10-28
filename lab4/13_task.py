@@ -7,4 +7,5 @@ for key, value in digit_dict.items():
         for j in range(1, count_facets + 1):
             if i + j == key:
                 digit_dict[key].append((i, j))
+for key , value in sorted(list(digit_dict.items()), reverse=True):
     print('sum = {} rolls = {}'.format(key, value))
