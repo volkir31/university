@@ -8,7 +8,6 @@ for i in lines:
         buyers_dict[input_str[0]] = input_str[1:]
     else:
         buyers_dict[input_str[0]] += input_str[1:]
-
 for name, products in buyers_dict.items():
     print(name+':')
     count_iter = 0
