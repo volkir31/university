@@ -16,17 +16,17 @@ def caesarEncrypt(string_to_encode, key):
     return result
 
 
-def get_count_letter(letter, string1):
+def get_count_letter(letter, string):
     count = 0
-    for char in string1:
+    for char in string:
         if char.upper() == letter.upper():
             count += 1
     return count
 
 
-def get_letters_count(string1):
+def get_letters_count(string):
     count = 0
-    for char in string1:
+    for char in string:
         if char.isalpha():
             count += 1
     return count
@@ -44,13 +44,12 @@ def analyze_text(string_to_analyze):
     return my_list
 
 
-def verify_string(string1, string_english):
-    words = string1.split()
+def verify_string_english_language(string, string_english):
+    words = string.split()
     verify_count = 0
     fail_count = 0
     for w in words:
         if fail_count >= 1:
-            print(w)
             return False
         if verify_count >= 10:
             return True
@@ -82,12 +81,7 @@ def breakCaesar(file, clean_text, dictionary=None):
         caesar_letter_pos = get_letter_position_in_alphabet(freq_caesar_letters[i])
         key = caesar_letter_pos - clear_letter_pos
         source_string = caesarEncrypt(open(file).read(), -key)
-        if key >= 0 and verify_string(source_string, open(dictionary).read()):
+        if key >= 0 and verify_string_english_language(source_string, open(dictionary).read()):
             print(key)
             print(source_string)
             return source_string
-
-
-if __name__ == '__main__':
-    # breakCaesar('2.txt', '1.txt')
-    breakCaesar('2.txt', '1.txt', 'files/dictionary.txt')
