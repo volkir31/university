@@ -55,8 +55,21 @@ def classify_test_set_list(test_set_list, classifier_list):
     return out_list
 
 
-if __name__ == '__main__':
+def report_results(result_list):
+    miss = 0
+    for item in result_list:
+        if item[1] > item[2] and item[3] == 'z' or item[1] < item[2] and item[3] == 'd':
+            miss += 1
+    print('of {} patients there were {} inaccuracies'.format(len(result_list), miss))
+
+
+def main():
     training_list = make_data_set("files/SmallTrainingData.txt")
     classifier_list = train_classifier(training_list)
     test_set_list = make_data_set("files/SmallTrainingData1.txt")
-    print(classify_test_set_list(test_set_list, classifier_list))
+    result_list = classify_test_set_list(test_set_list, classifier_list)
+    report_results(result_list)
+
+
+if __name__ == '__main__':
+    main()
