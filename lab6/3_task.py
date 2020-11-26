@@ -37,11 +37,38 @@ def train_classifier(training_set_list):
     return out_list
 
 
+def classify_test_set_list(test_set_list, classifier_list):
+    out_list = []
+    for item in test_set_list:
+        d_vote = 0
+        z_vote = 0
+        for i in range(2, len(item)):
+            for j in range(len(classifier_list)):
+                if i - 2 == j:
+                    if classifier_list[j] < item[i]:
+                        z_vote += 1
+                    else:
+                        d_vote += 1
+                else:
+                    continue
+        out_list.append((item[0], d_vote, z_vote, item[1]))
+    return out_list
+
+
+def report_results(result_list):
+    miss = 0
+    for item in result_list:
+        if item[1] > item[2] and item[3] == 'z' or item[1] < item[2] and item[3] == 'd':
+            miss += 1
+    print('of {} patients there were {} inaccuracies'.format(len(result_list), miss))
+
+
 def main():
-    # data = make_data_set('files/TrainingData.txt')
-    data2 = make_data_set('files/SmallTrainingData.txt')
-    # print(train_classifier(data))
-    print(train_classifier(data2))
+    training_list = make_data_set("files/SmallTrainingData.txt")
+    classifier_list = train_classifier(training_list)
+    test_set_list = make_data_set("files/SmallTrainingData1.txt")
+    result_list = classify_test_set_list(test_set_list, classifier_list)
+    report_results(result_list)
 
 
 if __name__ == '__main__':
