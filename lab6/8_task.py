@@ -73,4 +73,3 @@ if __name__ == '__main__':
     print(sn.recommend(0))
     print(sn.recommend(1))
     print(sn.recommend(2))
-    print(sn.recommend(3))
