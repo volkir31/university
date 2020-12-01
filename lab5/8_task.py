@@ -37,5 +37,5 @@ def caesarEncrypt(message, key, source='string'):
 
 
 if __name__ == '__main__':
-    print(caesarEncrypt('1.txt', 3, source='file'))
+    print(caesarEncrypt('1.txt', 2, source='file'))
     print(caesarEncrypt('hello,world', 2))

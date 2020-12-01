@@ -1,46 +1,72 @@
 class SocialNetwork:
+    friendship = {}
+    user_count = 0
+
     def __init__(self, file):
-        self.file = file
+        f = open(file)
+        while True:
+            line = f.readline()
+            if not line:
+                break
+            numbers = line.split()
+            if len(numbers) == 1:
+                self.user_count = int(numbers[0])
+                continue
+            user_id = int(numbers[0])
+            friend_id = int(numbers[1])
+            self.add_friendship(user_id, friend_id)
+
+    def add_friendship(self, user1, user2):
+        self.friendship.setdefault(user1, [])
+        if user2 not in self.friendship[user1]:
+            self.friendship[user1].append(user2)
+
+        self.friendship.setdefault(user2, [])
+        if user1 not in self.friendship[user2]:
+            self.friendship[user2].append(user1)
+
+    def is_friends(self, user1, user2):
+        if user1 in self.friendship:
+            return user2 in self.friendship[user1]
+        return False
+
+    def get_common_friends_count(self, user1, user2):
+        friends1 = self.friendship[user1]
+        if user2 in friends1:
+            friends1.remove(user2)
+
+        friends2 = self.friendship[user2]
+        if user1 in friends2:
+            friends2.remove(user1)
+
+        count = 0
+        for i in friends1:
+            if i in friends2:
+                count += 1
+        return count
 
     def recommend(self, user_id):
-        with open(self.file, 'r') as f:
-            friend_dict = {}
-            for line in f:
-                formatted_line = line.split()
-                if len(formatted_line) == 2:
-                    if formatted_line[0] not in friend_dict:
-                        friend_dict[formatted_line[0]] = formatted_line[1] + ' '
-                    else:
-                        friend_dict[formatted_line[0]] += formatted_line[1] + ' '
-                    if formatted_line[1] not in friend_dict:
-                        friend_dict[formatted_line[1]] = formatted_line[0] + ' '
-                    else:
-                        friend_dict[formatted_line[1]] += formatted_line[0] + ' '
+        friend_id = -1
+        may_be_common_friends_count = 0
+        for user in self.friendship:
+            if user_id == user:
+                continue
+            if self.is_friends(user_id, user):
+                continue
 
-        user_friend = friend_dict[str(user_id)].split()
-        count, max_count, friend_id = 0, 0, ''
-        for user, friends in friend_dict.items():
-            count = 0
-            for friend in friends.split():
-                for user_f in user_friend:
-                    if int(user_f) == int(friend):
-                        count += 1
-            if int(count) > int(max_count) and int(user) != int(user_id) and user not in friend_dict[str(user_id)]:
-                max_count = count
+            friends_count = self.get_common_friends_count(user_id, user)
+            if friend_id == -1:
                 friend_id = user
+                may_be_common_friends_count = friends_count
+            elif friends_count > may_be_common_friends_count:
+                friend_id = user
+                may_be_common_friends_count = friends_count
+            elif friends_count == may_be_common_friends_count:
+                if user < friend_id:
+                    friend_id = user
+                    may_be_common_friends_count = friends_count
+
         return friend_id
-
-        # str_user_id = str(user_id)
-        # for friend in friend_dict[str_user_id].split():
-        #     if friend in friend_dict:
-        #         for fr in friend_dict[friend].split():
-        #             if fr not in mutual_friends:
-        #                 mutual_friends[fr] = 1
-        #             else:
-        #                 mutual_friends[fr] += 1
-        # mutual_friends_list = list(mutual_friends.items())
-        # mutual_friends_list.sort(key=lambda list1: (-list1[1], list1[0]))
-
 
 if __name__ == '__main__':
     sn = SocialNetwork('files/small_net_win_line_end.txt')
