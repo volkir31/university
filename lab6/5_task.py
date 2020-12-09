@@ -5,6 +5,7 @@ class StringInOut:
         print(self.input_str.upper())
 
 
-a = StringInOut()
-a.getString()
-a.printUpperString()
+if __name__ == '__main__':
+    a = StringInOut()
+    a.getString()
+    a.printUpperString()

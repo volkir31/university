@@ -5,6 +5,7 @@ class Person:
         self.name = name
 
 
-a = Person('gjfdnjgndfg')
-print(a.name)
+if __name__ == '__main__':
+    a = Person('gjfdnjgndfg')
+    print(a.name)
 
