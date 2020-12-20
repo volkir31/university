@@ -1,7 +1,7 @@
 # import random
 # import matplotlib.pyplot as plt
 
-class Regrietion:
+class Regression:
     weight1 = 0
     weight2 = 0
     learning_rate = 0.01
@@ -46,7 +46,7 @@ class Regrietion:
         self.weight1_list.append(self.weight1)
         self.weight2_list.append(self.weight2)
 
-    def regration(self):
+    def regression(self):
         for i in range(self.count_iter):
             self.gradient_descent()
         print(round(self.weight1, 4), round(self.weight2, 4))
@@ -59,9 +59,8 @@ class Regrietion:
 
 
 def main():
-    r = Regrietion()
-    l = r.regration()
-
+    r = Regression()
+    r.regression()
 
 
 if __name__ == '__main__':
