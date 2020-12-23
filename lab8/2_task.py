@@ -42,24 +42,33 @@ for item in line:
         line_list.append(item)
 
 out_list = []
+current_operator = ''
 for item in line_list:
     if item.isdigit() or item.isalpha():
         out_list.append(item)
-    elif item == '*':
+    elif item in '*+-^/(':
         if not stack.is_empty():
             last_operator = stack.pop()
-            if priorety_dict[last_operator] >
-        stack.push(item)
-    elif item == '(':
-        stack.push(item)
+            try:
+                while priorety_dict[last_operator] >= priorety_dict[item] and item != '(':
+                    out_list.append(last_operator)
+                    last_operator = stack.pop()
+            except IndexError:
+                pass
+                stack.push(item)
+            else:
+                stack.push(last_operator)
+                stack.push(item)
+        else:
+            stack.push(item)
     elif item == ')':
-        last_elem = stack.pop()
-        out_list.append(last_elem)
-        while last_elem != '(':
-            last_elem = stack.pop()
-            out_list.append(last_elem)
+        last_item = stack.pop()
+        while last_item != '(':
+            out_list.append(last_item)
+            last_item = stack.pop()
+while not stack.is_empty():
+    out_list.append(stack.pop())
 
-
-print(line_list)
+print(' '.join(out_list))
 
 
