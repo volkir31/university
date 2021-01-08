@@ -36,5 +36,5 @@ for item in line:
         elif item == '^':
             first = stack.pop()
             second = stack.pop()
-            stack.push(second // first)
+            stack.push(second ** first)
 print(stack.pop())
